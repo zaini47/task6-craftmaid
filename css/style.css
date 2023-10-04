@@ -1,0 +1,376 @@
+:root {
+  --primary: #b88917;
+  --second: #0f0f16;
+  --text-color: #55595c;
+}
+
+.text-color {
+  color: var(--text-color);
+}
+.text-second {
+  color: var(--second);
+}
+.text-prim {
+  color: var(--primary);
+}
+.bg-second{
+  background-color: var(--second);
+}
+.bg-second-light{
+  background-color: #202029b2;
+}
+.bg-color {
+  background-color: var(--text-color);
+}
+
+.bg-prim {
+  background-color: var(--primary);
+}
+
+.bg--img {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/bg-image/steptodown.com876672.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg--img-service {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/bg-image/Rectangle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg--img-packages {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/bg-image/package-back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg--img-contact {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/bg-image/7xm.xyz284528-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg--img-about {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/bg-image/about-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  color: white;
+}
+
+
+.mask1 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/peoples/card1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask2 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/peoples/card2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask3 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/peoples/card3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask4 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/peoples/card4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask5 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/cards/service-cards.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask6 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/cards/service-cards2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask7 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/cards/service-cards3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask8 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/cards/service-cards4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+.mask9 {
+  background-image: linear-gradient(to right, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/cards/service-cards5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vmax;
+}
+
+.b-20{
+  top: 90%;
+  max-width: 85%;
+}
+
+h1 {
+  font-size: 68px;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+
+.mt-14 {
+  margin-top: 14px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-26 {
+  font-size: 26px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-38 {
+  font-size: 38px;
+}
+.fs-44 {
+  font-size: 44px;
+}
+.fs-45 {
+  font-size: 45px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-68 {
+  font-size: 68px;
+}
+
+.linesec2 {
+  background: var(--primary);
+  width: 40px;
+  height: 2px;
+}
+.linesecl {
+  background: white;
+  width: 40px;
+  height: 2px;
+}
+.round-s-25{
+  border-radius: 25px 0 0 25px ;
+}
+.round-e-25{
+  border-radius: 0 25px 25px 0;
+}
+
+.herobtn {
+  background-color: black;
+}
+
+.stars {
+  top: 7%;
+  right: 10%;
+}
+
+.info-box {
+  top: 50%;
+  right: 0px;
+}
+
+.b-dash{
+  border: var(--primary) dashed 1px;
+  border-radius: 20px;
+}
+
+.border-light{
+  border: 1px solid #e2e4eb;
+}
+
+.bt-footer{
+  border-top: 5px solid var(--primary);
+}
+
+.top--100{
+  top: -80px;
+}
+
+.border-top-lightcol{
+  border-top: 1px solid white;
+}
+
+.br-rounded{
+  border-radius: 25px;
+}
+
+.border-top-round{
+  border-radius: 25px 25px 0 0;
+}
+/* .border-bottom-round{
+  border-radius: 0 25px 0 25px ;
+} */
+
+.bt{
+  border: 25px 0 0 0;
+}
+
+.br{
+  border:0 25px 0 0;
+}
+
+.bb{
+  border: 0 0 25px 0;
+}
+
+.bl{
+  border: 0 0 0 25px;
+}
+
+.cut{
+  width: 1px;
+height: 60px;
+background: #D8D8D8;
+}
+
+#foot-h{
+  height: 15vmax;
+}
+
+
+@media (max-width:425px) {
+  .bg--img{
+    background-image: linear-gradient(to top, #b88917, rgba(255, 255, 255, 0)),
+    url("../picture/bg-image/steptodown.com876672.jpg");
+  }
+
+  .stars{
+    top: -9%;
+    right: -6%;
+  }
+  .block-sm{
+    position: relative;
+  }
+
+  .hidden-sm{
+    display: none;
+  }
+  .d-block-sm{
+    display: block;
+  }
+
+  .br-sm{
+    border-radius: 25px !important;
+  }
+  .border-sm{
+    border-radius: 0px;
+  }
+  .img-sm-h{
+    max-width: 35%;
+  }
+
+  .d--block{
+    display: block;
+  }
+
+  .fs-68{
+    font-size: 48px;
+  }
+  .fs-44{
+    font-size: 28px;
+  }
+  .fs-45{
+    font-size: 28px;
+  }
+  .fs-30{
+    font-size: 22px;
+  }
+
+  .fs-32{
+    font-size: 24px;
+  }
+
+  .flex-sm-coloumn{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .width-sm{
+    width: 100%;
+  }
+}
